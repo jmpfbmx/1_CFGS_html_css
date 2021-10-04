@@ -1,0 +1,28 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 30px;
+}
+
+.a, .b, .c {
+    font-size: 2em;
+}
+
+.a {
+    background-color:chocolate;
+}
+
+.b {
+    background-color: darkgreen;
+}
+
+.c {
+    background-color: blue;
+}
+
+.d {
+    font-size: 2rem;
+    background-color: yellow;
+}

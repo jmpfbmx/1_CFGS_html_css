@@ -1,0 +1,21 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 100vh;
+}
+
+.a {
+    background-color:chocolate;
+}
+
+.b {
+    background-color: darkgreen;
+}

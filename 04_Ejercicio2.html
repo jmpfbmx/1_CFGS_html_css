@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="04_Ejercicio2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="a">
+        <p>Div 1</p>
+        <div class="b">
+            <p>Div 2</p>
+            <div class="c">
+                <p>Div 3</p>
+                <div class="d">
+                    <p>Div 4</p>
+                </div>            
+            </div>        
+        </div>
+    </div>
+
+    <!--
+        ¿De qué tamaño se muestran los tres primeros divs y por qué?
+        Los 3 primeros divs tienen un tamaño de letra distintos porque al usar em (El cual es relativo respecto al tamaño de letra del elemento anterior) y estar todos dentro del primer div, se va multiplicando todo por 2em.
+
+        ¿De qué tamaño se muestra el último div y por qué?
+        El último div se muestra de 40 píxeles, porque estamos usando rem el cual es relativa respecto al tamaño letra del elemento raíz.
+    -->
+</body>
+</html>
